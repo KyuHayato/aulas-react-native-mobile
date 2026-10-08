@@ -1,6 +1,5 @@
 import { createDrawerNavigator } from "@react-navigation/drawer";
 import { createStaticNavigation } from "@react-navigation/native";
-
 import { HomeScreen } from "../screens/HomeScreen";
 import { ProfileScreen } from "../screens/ProfileScreen";
 import { SettingsScreen } from "../screens/SettingsScreen";
@@ -36,5 +35,4 @@ const Drawer = createDrawerNavigator<DrawerParamList>({
   },
 });
 
-export const DrawerNavigation =
-  createStaticNavigation(Drawer);
+export const DrawerNavigation = createStaticNavigation(Drawer);
